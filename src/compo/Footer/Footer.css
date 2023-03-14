@@ -1,0 +1,27 @@
+.footer{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    color: white;
+}
+.footer_det_menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer_mui{
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+   margin-left: 50px;
+   margin-top: 20px;
+}
+.footer_logo{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.footer_app_store{
+    margin-top: 30px;
+}

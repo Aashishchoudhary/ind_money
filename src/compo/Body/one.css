@@ -1,0 +1,50 @@
+.body_main{
+    width: 100%;
+}
+
+.body_bo{
+    background: rgb(16, 16, 16);
+    text-align: center;
+    color: white;
+    
+}
+.moving_text {
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 250, 250);
+}
+.body_heading{
+    color: aqua;
+    
+}
+span::before {
+    content: "To Invest in Mutual Funds. ";
+    animation: animate infinite 10s;
+    padding-left: 10px;
+    
+}
+.body_names{
+    margin-left: 400px;
+    width: 50%;
+display: grid;
+cursor: pointer;
+grid-template-columns: repeat(4,1fr);
+}
+.body_name_item:current{
+    border: 2px solid green;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "To Manage all your Money. ";
+    }
+
+    50% {
+        content: "To Invest in US Stocks. ";
+    }
+
+    75% {
+        content: "To Invest in Fixed Deposit. ";
+    }
+}

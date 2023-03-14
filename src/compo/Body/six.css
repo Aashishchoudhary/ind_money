@@ -1,0 +1,30 @@
+.six_heading{
+    display: grid;
+    
+ width: 100%;
+ margin-top: 100px;
+    height: 100%;
+    grid-template-columns: 2fr 1.5fr;
+}
+.six_sub{
+    display: grid;
+    grid-template-rows: 3fr 1fr 1fr;
+    color: aqua;
+}
+.six_he{
+    font-size: 50px;
+    color: aqua;
+}
+
+.btn_six{
+    border-radius: 10px;
+    background-color: aqua;
+    height: 50px;
+    width: 230px;
+    cursor: pointer;
+
+}
+
+.six_img{
+    border-radius: 15px;
+}

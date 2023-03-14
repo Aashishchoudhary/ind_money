@@ -1,0 +1,29 @@
+.body_body_names{
+    border: 2px solid black;
+    background: rgb(189, 187, 187);
+    border-radius: 20px;
+    margin-left: 300px;
+    width:60%;
+    height: 100px;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    text-align: center;
+    list-style: none;
+}
+
+.body_items_font{
+    font-size: 40px;
+    margin-top: 15px;
+    text-align: right;
+    color: aqua;
+    font-weight: 600;
+}
+.body_items_sm{
+    
+    margin-top: 35px;
+    
+   
+    margin-left: 3px;
+    text-align: left;
+}

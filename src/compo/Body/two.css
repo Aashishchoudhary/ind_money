@@ -1,0 +1,33 @@
+.body_two_heading{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+
+width: 800px;
+margin-left: 380px;
+}
+
+.btn_two{
+    margin-top: 50px;
+    background: aqua;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+}
+.two_menu{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.two_menu_sub{
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    width: 900px;
+    margin-left: 300px;
+}
+.two_menu_sub2{
+    display:grid;
+    width: 500px;
+    margin-left: 500px;
+    grid-template-columns:  1fr 1fr 1fr;
+}
